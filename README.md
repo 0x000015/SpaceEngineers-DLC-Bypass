@@ -8,4 +8,4 @@ Or you can use the CubeBlocks.sbc inside the BaseGame folder by dragging CubeBlo
 
 
 
-Keen, stop adding useless updates are starting patching things. Thanks.
+Keen, stop adding useless updates are start patching things. Thanks.
