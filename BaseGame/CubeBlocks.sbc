@@ -907,7 +907,7 @@
         <CubeTopology>Slope</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Large\Armor\RoundSlopePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\RoundSlopePlate.mwm" PatternWidth="16" PatternHeight="8" />
           <Side Model="Models\Cubes\Large\Armor\RoundCornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\RoundCornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -1029,13 +1029,13 @@
         <CubeTopology>InvCorner</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Large\Armor\RoundInvFaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\RoundCornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\RoundCornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\RoundCornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-          <Side Model="Models\Cubes\Large\Armor\RoundCornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\RoundInvFaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
         </Sides>
       </CubeDefinition>
       <Components>
@@ -4188,7 +4188,7 @@
         <CubeTopology>RoundSlope</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Large\Armor\SlopeRoundPlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SlopeRoundPlate.mwm" PatternWidth="16" PatternHeight="8" />
           <Side Model="Models\Cubes\Large\Armor\CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -4436,13 +4436,13 @@
         <CubeTopology>RoundInvCorner</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Large\Armor\InvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-          <Side Model="Models\Cubes\Large\Armor\CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\InvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
         </Sides>
       </CubeDefinition>
       <Components>
@@ -4599,7 +4599,7 @@
         <CubeTopology>RoundSlope</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Large\Armor\HeavySlopeRoundPlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySlopeRoundPlate.mwm" PatternWidth="16" PatternHeight="8" />
           <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -4850,14 +4850,14 @@
       <CubeDefinition>
         <CubeTopology>RoundInvCorner</CubeTopology>
         <ShowEdges>true</ShowEdges>
-        <Sides>
-          <Side Model="Models\Cubes\Large\Armor\HeavyInvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+        <Sides>          
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-          <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-          <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />          
           <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyInvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
         </Sides>
       </CubeDefinition>
       <Components>
@@ -5262,13 +5262,13 @@
         <CubeTopology>RoundInvCorner</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Small\Armor\InvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-          <Side Model="Models\Cubes\Small\Armor\CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\InvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
         </Sides>
       </CubeDefinition>
       <Components>
@@ -5674,13 +5674,13 @@
         <CubeTopology>RoundInvCorner</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Small\Armor\HeavyInvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-          <Side Model="Models\Cubes\Small\Armor\HeavyCornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
           <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyInvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />        
         </Sides>
       </CubeDefinition>
       <Components>
@@ -11666,6 +11666,7 @@
         <Class>SmallBlocks</Class>
         <Class>Components</Class>
         <Class>EliteTools</Class>
+		<Class>BuildPlanner</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -12785,6 +12786,81 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+      <Id>
+        <TypeId>CryoChamber</TypeId>
+        <SubtypeId>SmallBlockCryoChamber</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_CryoChamber</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\CryoPod.dds</Icon>
+      <Description>Description_CryoChamber</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="4" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Cryopod.mwm</Model>
+      <InteriorModel>Models\Cubes\small\Cryopod.mwm</InteriorModel>
+      <CharacterAnimation>Idle</CharacterAnimation>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="15" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="BulletproofGlass" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="4" />
+        <MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="0.5" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2.5" EndY="2" />
+        <MountPoint Side="Left" StartX="2" StartY="2" EndX="2.5" EndY="3" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Right" StartX="0.5" StartY="2" EndX="1" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\CryoPodConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\CryoPodConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>CryoChamber</BlockPairName>
+      <OverlayTexture>Textures\GUI\Screens\cryopod_interior.dds</OverlayTexture>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <IsPressurized>true</IsPressurized>
+      <OxygenCapacity>1</OxygenCapacity>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+      <OutsideSound>BlockCryoOut</OutsideSound>
+      <InsideSound>BlockCryoIn</InsideSound>
+      <EnclosedCockpit>true</EnclosedCockpit>
+      <EdgeType>Light</EdgeType>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+	
     <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
       <Id>
         <TypeId>LandingGear</TypeId>
@@ -23956,6 +24032,7 @@
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
+
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24017,6 +24094,7 @@
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
+
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24064,6 +24142,7 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>1</PCU>
+
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24130,12 +24209,13 @@
       <HasInventory>false</HasInventory>
       <OxygenCapacity>1</OxygenCapacity>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <IdlePowerConsumption>0</IdlePowerConsumption>
+      <IdlePowerConsumption>0.00003</IdlePowerConsumption>
       <EmissiveColorPreset>UnpoweredOccupancy</EmissiveColorPreset>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -24190,6 +24270,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>10</PCU>
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -24240,6 +24321,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>10</PCU>
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_PlanterDefinition">
@@ -24282,6 +24364,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>1</PCU>
+
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24340,6 +24423,7 @@
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
+
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24384,6 +24468,7 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>10</PCU>
+
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
