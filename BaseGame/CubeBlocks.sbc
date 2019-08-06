@@ -24032,7 +24032,6 @@
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
-
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24094,7 +24093,6 @@
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
-
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24142,7 +24140,6 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>1</PCU>
-
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24215,7 +24212,6 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
-
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -24270,7 +24266,6 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>10</PCU>
-
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -24321,7 +24316,6 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>10</PCU>
-
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_PlanterDefinition">
@@ -24364,7 +24358,6 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>1</PCU>
-
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24423,7 +24416,6 @@
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
-
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24468,7 +24460,6 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>10</PCU>
-
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -24540,7 +24531,6 @@
       <DamagedSound>ParticleElectrical</DamagedSound>>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
-
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -24599,7 +24589,6 @@
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>15</PCU>
-
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -24651,7 +24640,6 @@
       <IdleSound>BlockProjectorOff</IdleSound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>150</PCU>
-
       <IsAirTight>false</IsAirTight>
       <AllowScaling>true</AllowScaling>
       <IgnoreSize>true</IgnoreSize>
@@ -24721,7 +24709,6 @@
       <GetOutSound>ShipSmCockpitOut</GetOutSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>150</PCU>
-
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -24799,7 +24786,6 @@
       <IsPressurized>true</IsPressurized>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <PCU>150</PCU>
-
     </Definition>
 
     <!-- End of Decorative Blocks -->
