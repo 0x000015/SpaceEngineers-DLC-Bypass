@@ -739,8 +739,8 @@
         <string>HydrogenEngine/LargeHydrogenEngine</string>
         <string>HydrogenEngine/SmallHydrogenEngine</string>
       </ItemIds>
-    <!--</Category>
-      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    </Category>
+   <!--<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
           <TypeId>GuiBlockCategoryDefinition</TypeId>
           <SubtypeId/>
