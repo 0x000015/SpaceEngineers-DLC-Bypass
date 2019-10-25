@@ -12,6 +12,7 @@
       <Icon>Textures\GUI\Icons\Cubes\Desk.dds</Icon>
       <Description>Description_Desk</Description>
       <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <Model>Models\Cubes\Large\Desk.mwm</Model>
@@ -49,20 +50,6 @@
               <MinAllowed>0</MinAllowed>
           </DynamicMode>
       </VoxelPlacement>
-      <BlockVariants>
-          <BlockVariant>
-              <TypeId>Cockpit</TypeId>
-              <SubtypeId>LargeBlockDeskCorner</SubtypeId>
-          </BlockVariant>
-        <BlockVariant>
-          <TypeId>CubeBlock</TypeId>
-          <SubtypeId>LargeBlockDeskChairless</SubtypeId>
-        </BlockVariant>
-          <BlockVariant>
-              <TypeId>CubeBlock</TypeId>
-              <SubtypeId>LargeBlockDeskChairlessCorner</SubtypeId>
-          </BlockVariant>
-      </BlockVariants>
       <BlockPairName>Desk</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
@@ -76,6 +63,7 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
@@ -84,8 +72,8 @@
       <DisplayName>DisplayName_Block_DeskCorner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\DeskCorner.dds</Icon>
       <Description>Description_DeskCorner</Description>
+        <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <Model>Models\Cubes\Large\DeskCorner.mwm</Model>
@@ -313,6 +301,7 @@
       <Icon>Textures\GUI\Icons\Cubes\Bed.dds</Icon>
       <Description>Description_Bed</Description>
       <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <Model>Models\Cubes\Large\Bed.mwm</Model>
@@ -384,6 +373,7 @@
       <Icon>Textures\GUI\Icons\Cubes\LockerRoom.dds</Icon>
       <Description>Description_LockerRoomCorner</Description>
       <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <Model>Models\Cubes\Large\LockerRoom.mwm</Model>
@@ -412,12 +402,6 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LockerRoomConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LockerRoomConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>CargoContainer</TypeId>
-          <SubtypeId>LargeBlockLockerRoomCorner</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>LockerRoom</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
@@ -469,8 +453,9 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LockerRoomCornerConstruction_3.mwm" />
       </BuildProgressModels>
       <BlockPairName>LockerRoomCorner</BlockPairName>
-      <MirroringX>Z</MirroringX>
-      <MirroringZ>X</MirroringZ>
+      <MirroringX>MinusHalfY</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>HalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <EmissiveColorPreset>Basic</EmissiveColorPreset>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -488,6 +473,7 @@
       <Icon>Textures\GUI\Icons\Cubes\Planters.dds</Icon>
       <Description>Description_Planters</Description>
       <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <Model>Models\Cubes\Large\Planters.mwm</Model>
@@ -531,6 +517,7 @@
       <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
       <Description>Description_Couch</Description>
       <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <Model>Models\Cubes\Large\Couch.mwm</Model>
@@ -566,12 +553,6 @@
               <MinAllowed>0</MinAllowed>
           </DynamicMode>
       </VoxelPlacement>
-        <BlockVariants>
-            <BlockVariant>
-                <TypeId>Cockpit</TypeId>
-                <SubtypeId>LargeBlockCouchCorner</SubtypeId>
-            </BlockVariant>
-        </BlockVariants>
       <BlockPairName>Couch</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
@@ -634,8 +615,9 @@
           </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>CouchCorner</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
+      <MirroringX>MinusHalfY</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
@@ -699,6 +681,7 @@
       <Icon>Textures\GUI\Icons\Cubes\BathroomOpen.dds</Icon>
       <Description>Description_BathroomOpen</Description>
       <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <Model>Models\Cubes\Large\BathroomOpen.mwm</Model>
@@ -740,16 +723,6 @@
               <MinAllowed>0</MinAllowed>
           </DynamicMode>
       </VoxelPlacement>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>LargeBlockToilet</SubtypeId>
-        </BlockVariant>
-		<BlockVariant>
-          <TypeId>Cockpit</TypeId>
-          <SubtypeId>LargeBlockBathroom</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BlockPairName>BathroomOpen</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
@@ -953,6 +926,7 @@
       <Icon>Textures\GUI\Icons\Cubes\CockpitIndustrial.dds</Icon>
       <Description>Description_CockpitIndustrial</Description>
       <CubeSize>Small</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="4" z="4" />
       <Model>Models\Cubes\small\CockpitIndustrial.mwm</Model>
@@ -1019,6 +993,7 @@
       <Icon>Textures\GUI\Icons\Cubes\LargeCockpitIndustrial.dds</Icon>
       <Description>Description_CockpitIndustrial</Description>
       <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <Model>Models\Cubes\Large\CockpitIndustrial.mwm</Model>
