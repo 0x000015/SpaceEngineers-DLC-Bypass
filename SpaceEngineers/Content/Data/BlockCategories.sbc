@@ -807,7 +807,7 @@
         </ItemIds>
       </Category>-->
 	  
-     <!-- <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <!--<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
           <TypeId>GuiBlockCategoryDefinition</TypeId>
           <SubtypeId/>
@@ -818,7 +818,6 @@
         <ItemIds>
           <string>VendingMachine/FoodDispenser</string>
 		  <string>Jukebox/Jukebox</string>
-		  <string>Cockpit/OpenCockpitSmall</string>
 		  <string>LCDPanelsBlock/LabEquipment</string>
 		  <string>CubeBlock/Shower</string>
 		  <string>CubeBlock/WindowWall</string>

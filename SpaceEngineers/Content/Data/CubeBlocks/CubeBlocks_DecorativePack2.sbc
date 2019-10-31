@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     <!-- Decorative Blocks #2-->
@@ -59,14 +59,6 @@
                 <PricePerUnitDiscount>0</PricePerUnitDiscount>
             </MyObjectBuilder_StoreItem>
         </DefaultItems>
-        <ThrowOutItems>
-            <dictionary>
-                <item>
-                    <Key>ClangCola</Key>
-                    <Value>100000</Value>
-                </item>
-            </dictionary>                            
-        </ThrowOutItems>
         <ThrowOutDummy>FoodDispenserSpawn</ThrowOutDummy>
         <BlockPairName>FoodDispenser</BlockPairName>
       <ScreenAreas>
@@ -140,67 +132,6 @@
     </Definition>
 	
 
- <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
-      <Id>
-        <TypeId>Cockpit</TypeId>
-        <SubtypeId>OpenCockpitSmall</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OpenCockpitSmall</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\OpenCockpitSmall.dds</Icon>
-      <Description>Description_OpenCockpitSmall</Description>
-      <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="3" z="3" />
-      <Model>Models\Cubes\Small\OpenCockpitSmall.mwm</Model>
-      <CharacterAnimation>FighterCockpitPosture</CharacterAnimation>
-      <ModelOffset x="0" y="0" z="0" />
-      <Components>
-          <Component Subtype="InteriorPlate" Count="10" />
-          <Component Subtype="Construction" Count="15" />
-          <Component Subtype="Motor" Count="1" />
-          <Component Subtype="Computer" Count="15" />
-          <Component Subtype="Display" Count="2" />
-          <Component Subtype="InteriorPlate" Count="10" />
-      </Components>
-      <CriticalComponent Subtype="Display" Index="0" />
-      <MountPoints>
-          <MountPoint Side="Bottom" StartX="0.9" StartY="0.0" EndX="2.1" EndY="3" Default="true"/>
-          <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="2.1" EndY="2.5" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OpenCockpitSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OpenCockpitSmallConstruction_2.mwm" />
-      </BuildProgressModels>
-     <ScreenAreas>
-         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
-     </ScreenAreas>     
-     <VoxelPlacement>
-          <StaticMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </StaticMode>
-          <DynamicMode>
-              <PlacementMode>OutsideVoxel</PlacementMode>
-              <MaxAllowed>0.2</MaxAllowed>
-              <MinAllowed>0</MinAllowed>
-          </DynamicMode>
-      </VoxelPlacement>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <EdgeType>Light</EdgeType>
-      <EnableFirstPerson>true</EnableFirstPerson>
-      <EnableShipControl>true</EnableShipControl>
-      <EnableBuilderCockpit>false</EnableBuilderCockpit>
-      <IsPressurized>false</IsPressurized>
-      <BuildTimeSeconds>14</BuildTimeSeconds>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <PCU>50</PCU>
-     <DLC>DecorativeBlocks2</DLC>
-      <IsAirTight>false</IsAirTight>
-    </Definition>
 
       <Definition xsi:type="MyObjectBuilder_LCDPanelsBlockDefinition">
           <Id>
