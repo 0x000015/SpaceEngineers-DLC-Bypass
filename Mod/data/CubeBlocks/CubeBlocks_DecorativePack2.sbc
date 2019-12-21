@@ -682,8 +682,131 @@
           <PCU>1</PCU>
           <IsAirTight>false</IsAirTight>
       </Definition>
-
-
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>CatwalkRailingEnd</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_GratedCatwalkRailingEnd</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\GratedCatwalkRailingEnd.dds</Icon>
+          <Description>Description_GratedCatwalkStraight</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <GuiVisible>false</GuiVisible>
+          <Model>Models\Cubes\Large\GratedCatwalkRailingEnd.mwm</Model>
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+              <Component Subtype="Construction" Count="16" />
+              <Component Subtype="Girder" Count="4" />
+              <Component Subtype="SmallTube" Count="38" />
+              <Component Subtype="Construction" Count="12" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+              <MountPoint Side="Back" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+              <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GratedCatwalkRailingEndConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GratedCatwalkRailingEndConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GratedCatwalkRailingEndConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <HasInventory>false</HasInventory>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <IsAirTight>false</IsAirTight>
+      </Definition>
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>CatwalkRailingHalfRight</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_GratedCatwalkRailingHalfRight</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\GratedCatwalkRailingHalfRight.dds</Icon>
+          <Description>Description_GratedCatwalkWall</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <GuiVisible>false</GuiVisible>
+          <Model>Models\Cubes\Large\GratedCatwalkRailingHalfRight.mwm</Model>
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+              <Component Subtype="Construction" Count="16" />
+              <Component Subtype="Girder" Count="4" />
+              <Component Subtype="SmallTube" Count="36" />
+              <Component Subtype="Construction" Count="12" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+              <MountPoint Side="Back" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+              <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GratedCatwalkRailingHalfRightConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GratedCatwalkRailingHalfRightConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GratedCatwalkRailingHalfRightConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <MirroringBlock>CatwalRailingHalfLeft</MirroringBlock>
+          <EdgeType>Light</EdgeType>
+          <HasInventory>false</HasInventory>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <IsAirTight>false</IsAirTight>
+      </Definition>
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>CatwalkRailingHalfLeft</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_GratedCatwalkRailingHalfLeft</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\GratedCatwalkRailingHalfLeft.dds</Icon>
+          <Description>Description_GratedCatwalkWall</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <GuiVisible>false</GuiVisible>
+          <Model>Models\Cubes\Large\GratedCatwalkRailingHalfLeft.mwm</Model>
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+              <Component Subtype="Construction" Count="16" />
+              <Component Subtype="Girder" Count="4" />
+              <Component Subtype="SmallTube" Count="36" />
+              <Component Subtype="Construction" Count="12" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+              <MountPoint Side="Back" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+              <MountPoint Side="Front" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GratedCatwalkRailingHalfLeftConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GratedCatwalkRailingHalfLeftConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GratedCatwalkRailingHalfLeftConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <MirroringBlock>CatwalRailingHalfRight</MirroringBlock>
+          <EdgeType>Light</EdgeType>
+          <HasInventory>false</HasInventory>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <IsAirTight>false</IsAirTight>
+      </Definition>
 
 
       <Definition>
@@ -708,12 +831,13 @@
           </Components>
           <CriticalComponent Subtype="InteriorPlate" Index="0" />
           <MountPoints>
-              <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-              <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+              <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.5" EndX="0.5" EndY="1" />
               <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
               <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-              <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+              <MountPoint Side="Back" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.1" />
           </MountPoints>
           <BuildProgressModels>
               <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GratedStairsConstruction_1.mwm" />
@@ -750,10 +874,11 @@
           </Components>
           <CriticalComponent Subtype="InteriorPlate" Index="0" />
           <MountPoints>
-              <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="1" />
-              <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="0.5" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0.5" StartY="0.9" EndX="1" EndY="1" />
               <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
-              <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+              <MountPoint Side="Right" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+              <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="0.1" />
           </MountPoints>
           <BuildProgressModels>
               <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GratedHalfStairsConstruction_1.mwm" />
@@ -762,6 +887,49 @@
           </BuildProgressModels>
           <MirroringZ>Y</MirroringZ>
           <MirroringY>Z</MirroringY>
+          <MirroringBlock>GratedHalfStairsMirrored</MirroringBlock>
+          <EdgeType>Light</EdgeType>
+          <HasInventory>false</HasInventory>
+          <BuildTimeSeconds>8</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <IsAirTight>false</IsAirTight>
+      </Definition>
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>GratedHalfStairsMirrored</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_GratedHalfStairsMirrored</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\GratedHalfStairsMirrored.dds</Icon>
+          <Description>Description_GratedHalfStairs</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <GuiVisible>false</GuiVisible>
+          <Model>Models\Cubes\Large\GratedHalfStairsMirrored.mwm</Model>
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+              <Component Subtype="Construction" Count="10" />
+              <Component Subtype="SmallTube" Count="6" />
+              <Component Subtype="InteriorPlate" Count="8" />
+              <Component Subtype="Construction" Count="10" />
+          </Components>
+          <CriticalComponent Subtype="InteriorPlate" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Front" StartX="0.5" StartY="0.9" EndX="1" EndY="1" />
+              <MountPoint Side="Bottom" StartX="0" StartY="0.9" EndX="0.5" EndY="1" />
+              <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.5" EndX="0.5" EndY="1" />
+              <MountPoint Side="Left" ExclusionMask="1" PropertiesMask="2" StartX="0.5" StartY="0.5" EndX="1" EndY="0.5" />
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="0.1" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GratedHalfStairsMirroredConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GratedHalfStairsMirroredConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GratedHalfStairsMirroredConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <MirroringBlock>GratedHalfStairs</MirroringBlock>
           <EdgeType>Light</EdgeType>
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -928,6 +1096,82 @@
           <MirroringY>XHalfY</MirroringY>
 		  <MirroringZ>MinusHalfY</MirroringZ>
           <BuildTimeSeconds>6</BuildTimeSeconds>
+          <PCU>1</PCU>
+          <IsAirTight>false</IsAirTight>
+      </Definition>
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>RailingHalfRight</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_RailingHalfRight</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\RailingHalfRight.dds</Icon>
+          <Description>Description_RailingStraight</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <GuiVisible>false</GuiVisible>
+          <Model>Models\Cubes\Large\RailingHalfRight.mwm</Model>
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+              <Component Subtype="Construction" Count="4" />
+              <Component Subtype="SmallTube" Count="4" />
+              <Component Subtype="Construction" Count="4" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.1" EndY="1" Default="true" />
+              <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="0.4" />
+              <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="1" EndY="0.4" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RailingHalfRightConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RailingHalfRightConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RailingHalfRightConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <MirroringBlock>RailingHalfLeft</MirroringBlock>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <BlockPairName>RailingHalfRight</BlockPairName>
+          <PCU>1</PCU>
+          <IsAirTight>false</IsAirTight>
+      </Definition>
+      <Definition>
+          <Id>
+              <TypeId>CubeBlock</TypeId>
+              <SubtypeId>RailingHalfLeft</SubtypeId>
+          </Id>
+          <DisplayName>DisplayName_Block_RailingHalfLeft</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\RailingHalfLeft.dds</Icon>
+          <Description>Description_RailingStraight</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <GuiVisible>false</GuiVisible>
+          <Model>Models\Cubes\Large\RailingHalfLeft.mwm</Model>
+          <ModelOffset x="0" y="0" z="0" />
+          <Components>
+              <Component Subtype="Construction" Count="4" />
+              <Component Subtype="SmallTube" Count="4" />
+              <Component Subtype="Construction" Count="4" />
+          </Components>
+          <CriticalComponent Subtype="SmallTube" Index="0" />
+          <MountPoints>
+              <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.1" EndY="1" Default="true" />
+              <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.4" />
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.1" EndY="0.4" />
+          </MountPoints>
+          <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RailingHalfLeftConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RailingHalfLeftConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RailingHalfLeftConstruction_3.mwm" />
+          </BuildProgressModels>
+          <MirroringX>Y</MirroringX>
+          <MirroringY>X</MirroringY>
+          <MirroringBlock>RailingHalfRight</MirroringBlock>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <BlockPairName>RailingHalfLeft</BlockPairName>
           <PCU>1</PCU>
           <IsAirTight>false</IsAirTight>
       </Definition>
