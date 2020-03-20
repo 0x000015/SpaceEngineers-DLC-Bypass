@@ -17,6 +17,7 @@
         <string>Assembler/BasicAssembler</string>
         <string>Assembler/LargeAssembler</string>
         <string>AirtightSlideDoor/LargeBlockSlideDoor</string>
+        <string>Door/LargeBlockOffsetDoor</string>
         <string>BatteryBlock/LargeBlockBatteryBlock</string>
         <string>Beacon/LargeBlockBeacon</string>
         <string>SafeZoneBlock/SafeZoneBlock</string>
@@ -129,6 +130,12 @@
         <string>CubeBlock/Window1x2SideLeftInv</string>
         <string>CubeBlock/Window1x2SideRightInv</string>
         <string>CubeBlock/Window1x1SideInv</string>
+        <string>CubeBlock/DeadBody01</string>
+        <string>CubeBlock/DeadBody02</string>
+        <string>CubeBlock/DeadBody03</string>
+        <string>CubeBlock/DeadBody04</string>
+        <string>CubeBlock/DeadBody05</string>
+        <string>CubeBlock/DeadBody06</string>
         <string>Decoy/LargeDecoy</string>
         <string>Door/(null)</string>
         <string>Drill/LargeBlockDrill</string>
@@ -156,6 +163,7 @@
         <string>PistonTop/LargePistonTop</string>
         <string>Projector/LargeProjector</string>
         <string>RadioAntenna/LargeBlockRadioAntenna</string>
+        <string>RadioAntenna/LargeBlockRadioAntennaDish</string>
         <string>Reactor/LargeBlockLargeGenerator</string>
         <string>Reactor/LargeBlockSmallGenerator</string>
         <string>Refinery/LargeRefinery</string>
@@ -192,8 +200,10 @@
         <string>OxygenGenerator/(null)</string>
         <string>OxygenTank/(null)</string>
         <string>OxygenTank/LargeHydrogenTank</string>
+        <string>OxygenTank/LargeHydrogenTankSmall</string>
         <string>AirVent/(null)</string>
         <string>AirtightHangarDoor/(null)</string>
+        <string>Door/LargeBlockGate</string>
         <string>OxygenFarm/LargeBlockOxygenFarm</string>
         <string>CryoChamber/LargeBlockCryoChamber</string>
         <string>UpgradeModule/LargeProductivityModule</string>
@@ -242,12 +252,18 @@
 		  <string>CubeBlock/CatwalkCorner</string>
 		  <string>CubeBlock/CatwalkStraight</string>
 		  <string>CubeBlock/CatwalkWall</string>
+          <string>CubeBlock/CatwalkRailingEnd</string>
+          <string>CubeBlock/CatwalkRailingHalfRight</string>
+          <string>CubeBlock/CatwalkRailingHalfLeft</string>
 		  <string>CubeBlock/GratedStairs</string>
 		  <string>CubeBlock/GratedHalfStairs</string>
+          <string>CubeBlock/GratedHalfStairsMirrored</string>
 		  <string>CubeBlock/RailingStraight</string>
 		  <string>CubeBlock/RailingDouble</string>
 		  <string>CubeBlock/RailingCorner</string>
 		  <string>CubeBlock/RailingDiagonal</string>
+          <string>CubeBlock/RailingHalfRight</string>
+          <string>CubeBlock/RailingHalfLeft</string>
 		  <string>ReflectorLight/RotatingLightLarge</string>
 		  <string>ReflectorLight/RotatingLightSmall</string>
 		  <string>CubeBlock/Freight1</string>
@@ -348,6 +364,26 @@
         <string>CubeBlock/SmallHeavyBlockArmorCorner2Tip</string>
         <string>CubeBlock/SmallHeavyBlockArmorInvCorner2Base</string>
         <string>CubeBlock/SmallHeavyBlockArmorInvCorner2Tip</string>
+        <string>CubeBlock/SmallWindow1x1Face</string>
+        <string>CubeBlock/SmallWindow1x1Flat</string>
+        <string>CubeBlock/SmallWindow1x1FlatInv</string>
+        <string>CubeBlock/SmallWindow1x1Inv</string>
+        <string>CubeBlock/SmallWindow1x1Side</string>
+        <string>CubeBlock/SmallWindow1x1Slope</string>
+        <string>CubeBlock/SmallWindow1x2Face</string>
+        <string>CubeBlock/SmallWindow1x2Flat</string>
+        <string>CubeBlock/SmallWindow1x2FlatInv</string>
+        <string>CubeBlock/SmallWindow1x2Inv</string>
+        <string>CubeBlock/SmallWindow1x2SideLeft</string>
+        <string>CubeBlock/SmallWindow1x2SideRight</string>
+        <string>CubeBlock/SmallWindow1x2Slope</string>
+        <string>CubeBlock/SmallWindow2x3Flat</string>
+        <string>CubeBlock/SmallWindow2x3FlatInv</string>
+        <string>CubeBlock/SmallWindow3x3Flat</string>
+        <string>CubeBlock/SmallWindow3x3FlatInv</string>
+        <string>CubeBlock/SmallWindow1x2SideLeftInv</string>
+        <string>CubeBlock/SmallWindow1x2SideRightInv</string>
+        <string>CubeBlock/SmallWindow1x1SideInv</string>
         <string>Decoy/SmallDecoy</string>
         <string>Drill/SmallBlockDrill</string>
         <string>Gyro/SmallBlockGyro</string>
@@ -404,6 +440,7 @@
         <string>LaserAntenna/SmallBlockLaserAntenna</string>
         <string>OxygenTank/OxygenTankSmall</string>
         <string>OxygenTank/SmallHydrogenTank</string>
+        <string>OxygenTank/SmallHydrogenTankSmall</string>
         <string>OxygenGenerator/OxygenGeneratorSmall</string>
         <string>AirVent/SmallAirVent</string>
         <string>HydrogenEngine/SmallHydrogenEngine</string>
@@ -639,6 +676,8 @@
         <string>EmoteDefinition/EmotePointForward</string>
         <string>EmoteDefinition/EmotePointLeft</string>
         <string>EmoteDefinition/EmotePointRight</string>
+		<string>EmoteDefinition/EmoteCold</string>
+		<string>EmoteDefinition/EmoteCheckWrist</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -830,17 +869,46 @@
 		  <string>CubeBlock/CatwalkCorner</string>
 		  <string>CubeBlock/CatwalkStraight</string>
 		  <string>CubeBlock/CatwalkWall</string>
+          <string>CubeBlock/CatwalkRailingEnd</string>
+          <string>CubeBlock/CatwalkRailingHalfRight</string>
+          <string>CubeBlock/CatwalkRailingHalfLeft</string>
+          <string>CubeBlock/CatwalkRailingHalfRight</string>
+          <string>CubeBlock/CatwalkRailingHalfLeft</string>
 		  <string>CubeBlock/GratedStairs</string>
 		  <string>CubeBlock/GratedHalfStairs</string>
+          <string>CubeBlock/GratedHalfStairsMirrored</string>
 		  <string>CubeBlock/RailingStraight</string>
 		  <string>CubeBlock/RailingDouble</string>
 		  <string>CubeBlock/RailingCorner</string>
 		  <string>CubeBlock/RailingDiagonal</string>
+          <string>CubeBlock/RailingHalfRight</string>
+          <string>CubeBlock/RailingHalfLeft</string>
 		  <string>ReflectorLight/RotatingLightLarge</string>
 		  <string>ReflectorLight/RotatingLightSmall</string>
 		  <string>CubeBlock/Freight1</string>
 		  <string>CubeBlock/Freight2</string>
 		  <string>CubeBlock/Freight3</string>
+        </ItemIds>
+      </Category>-->
+      
+      <!--<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+          <TypeId>GuiBlockCategoryDefinition</TypeId>
+          <SubtypeId/>
+        </Id>
+        <DisplayName>DisplayName_DLC_Frostbite</DisplayName>
+        <Name>FrozenBlocks</Name>
+        <StrictSearch>true</StrictSearch>
+        <ItemIds>
+          <string>RadioAntenna/LargeBlockRadioAntennaDish</string>
+          <string>Door/LargeBlockGate</string>
+          <string>Door/LargeBlockOffsetDoor</string>
+          <string>CubeBlock/DeadBody01</string>
+          <string>CubeBlock/DeadBody02</string>
+          <string>CubeBlock/DeadBody03</string>
+          <string>CubeBlock/DeadBody04</string>
+          <string>CubeBlock/DeadBody05</string>
+          <string>CubeBlock/DeadBody06</string>
         </ItemIds>
       </Category>-->
 	  
