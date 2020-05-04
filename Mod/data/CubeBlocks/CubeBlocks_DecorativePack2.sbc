@@ -758,7 +758,7 @@
           </BuildProgressModels>
           <MirroringZ>Y</MirroringZ>
           <MirroringY>Z</MirroringY>
-          <MirroringBlock>CatwalRailingHalfLeft</MirroringBlock>
+          <MirroringBlock>CatwalkRailingHalfLeft</MirroringBlock>
           <EdgeType>Light</EdgeType>
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -800,7 +800,7 @@
           </BuildProgressModels>
           <MirroringZ>Y</MirroringZ>
           <MirroringY>Z</MirroringY>
-          <MirroringBlock>CatwalRailingHalfRight</MirroringBlock>
+          <MirroringBlock>CatwalkRailingHalfRight</MirroringBlock>
           <EdgeType>Light</EdgeType>
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1425,7 +1425,6 @@
           <PCU>10</PCU>
           <IsAirTight>false</IsAirTight>
       </Definition>
-      
     <!-- End of Decorative Blocks 2 -->
   </CubeBlocks>
 </Definitions>

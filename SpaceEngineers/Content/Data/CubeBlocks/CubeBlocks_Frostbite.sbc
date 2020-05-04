@@ -83,11 +83,13 @@
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1.15" EndY="2" />
                 <MountPoint Side="Front" StartX="3.85" StartY="0" EndX="5" EndY="2" />
                 <MountPoint Side="Front" StartX="1.15" StartY="1.85" EndX="3.85" EndY="2" />
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="2" Enabled="false"/>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1.15" EndY="2" />
                 <MountPoint Side="Back" StartX="3.85" StartY="0" EndX="5" EndY="2" />
                 <MountPoint Side="Back" StartX="1.15" StartY="1.85" EndX="3.85" EndY="2" />
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="2" Enabled="false" />
+                
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="2" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="2" Enabled="false" PressurizedWhenOpen="false"/>
+                
             </MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GateConstruction_1.mwm" />
