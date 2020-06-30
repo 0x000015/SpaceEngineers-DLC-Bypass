@@ -11,8 +11,13 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>MotorAdvancedStator/LargeAdvancedStator</string>
+        <string>MotorAdvancedStator/LargeHinge</string>
+        <string>MotorAdvancedRotor/LargeHingeHead</string>
         <string>TextPanel/LargeLCDPanelWide</string>
         <string>TextPanel/LargeLCDPanel</string>
+        <string>TextPanel/LargeLCDPanel3x3</string>
+        <string>TextPanel/LargeLCDPanel5x3</string>
+        <string>TextPanel/LargeLCDPanel5x5</string>
         <string>ProgrammableBlock/LargeProgrammableBlock</string>
         <string>Assembler/BasicAssembler</string>
         <string>Assembler/LargeAssembler</string>
@@ -22,6 +27,8 @@
         <string>Beacon/LargeBlockBeacon</string>
         <string>SafeZoneBlock/SafeZoneBlock</string>
         <string>ButtonPanel/ButtonPanelLarge</string>
+        <string>ButtonPanel/LargeSciFiButtonPanel</string>
+        <string>ButtonPanel/LargeSciFiButtonTerminal</string>
         <string>CargoContainer/LargeBlockLargeContainer</string>
         <string>CargoContainer/LargeBlockSmallContainer</string>
         <string>Cockpit/CockpitOpen</string>
@@ -90,6 +97,7 @@
         <string>CubeBlock/LargeHeavyBlockArmorInvCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockArmorInvCorner2Tip</string>
         <string>CubeBlock/LargeBlockInteriorWall</string>
+        <string>CubeBlock/LargeBlockSciFiWall</string>
         <string>CubeBlock/LargeCoverWall</string>
         <string>CubeBlock/LargeCoverWallHalf</string>
         <string>CubeBlock/LargeHeavyBlockArmorBlock</string>
@@ -136,9 +144,62 @@
         <string>CubeBlock/DeadBody04</string>
         <string>CubeBlock/DeadBody05</string>
         <string>CubeBlock/DeadBody06</string>
+        <string>CubeBlock/LargeSymbolA</string>
+        <string>CubeBlock/LargeSymbolB</string>
+        <string>CubeBlock/LargeSymbolC</string>
+        <string>CubeBlock/LargeSymbolD</string>
+        <string>CubeBlock/LargeSymbolE</string>
+        <string>CubeBlock/LargeSymbolF</string>
+        <string>CubeBlock/LargeSymbolG</string>
+        <string>CubeBlock/LargeSymbolH</string>
+        <string>CubeBlock/LargeSymbolI</string>
+        <string>CubeBlock/LargeSymbolJ</string>
+        <string>CubeBlock/LargeSymbolK</string>
+        <string>CubeBlock/LargeSymbolL</string>
+        <string>CubeBlock/LargeSymbolM</string>
+        <string>CubeBlock/LargeSymbolN</string>
+        <string>CubeBlock/LargeSymbolO</string>
+        <string>CubeBlock/LargeSymbolP</string>
+        <string>CubeBlock/LargeSymbolQ</string>
+        <string>CubeBlock/LargeSymbolR</string>
+        <string>CubeBlock/LargeSymbolS</string>
+        <string>CubeBlock/LargeSymbolT</string>
+        <string>CubeBlock/LargeSymbolU</string>
+        <string>CubeBlock/LargeSymbolV</string>
+        <string>CubeBlock/LargeSymbolW</string>
+        <string>CubeBlock/LargeSymbolX</string>
+        <string>CubeBlock/LargeSymbolY</string>
+        <string>CubeBlock/LargeSymbolZ</string>
+        <string>CubeBlock/LargeSymbol0</string>
+        <string>CubeBlock/LargeSymbol1</string>
+        <string>CubeBlock/LargeSymbol2</string>
+        <string>CubeBlock/LargeSymbol3</string>
+        <string>CubeBlock/LargeSymbol4</string>
+        <string>CubeBlock/LargeSymbol5</string>
+        <string>CubeBlock/LargeSymbol6</string>
+        <string>CubeBlock/LargeSymbol7</string>
+        <string>CubeBlock/LargeSymbol8</string>
+        <string>CubeBlock/LargeSymbol9</string>
+        <string>CubeBlock/LargeSymbolHyphen</string>
+        <string>CubeBlock/LargeSymbolUnderscore</string>
+        <string>CubeBlock/LargeSymbolDot</string>
+        <string>CubeBlock/LargeSymbolApostrophe</string>
+        <string>CubeBlock/LargeSymbolAnd</string>
+        <string>CubeBlock/LargeSymbolColon</string>
+        <string>CubeBlock/LargeSymbolExclamationMark</string>
+        <string>CubeBlock/LargeSymbolQuestionMark</string>
         <string>Decoy/LargeDecoy</string>
         <string>Door/(null)</string>
         <string>Drill/LargeBlockDrill</string>
+		<string>EmissiveBlock/LargeNeonTubesStraight1</string>
+        <string>EmissiveBlock/LargeNeonTubesStraight2</string>
+        <string>EmissiveBlock/LargeNeonTubesCorner</string>
+        <string>EmissiveBlock/LargeNeonTubesCorner90</string>
+        <string>EmissiveBlock/LargeNeonTubesBendUp</string>
+        <string>EmissiveBlock/LargeNeonTubesBendDown</string>
+        <string>EmissiveBlock/LargeNeonTubesStraightEnd1</string>
+        <string>EmissiveBlock/LargeNeonTubesStraightEnd2</string>
+        <string>EmissiveBlock/LargeNeonTubesU</string>
         <string>GravityGenerator/(null)</string>
         <string>GravityGeneratorSphere/(null)</string>
         <string>Gyro/LargeBlockGyro</string>
@@ -179,12 +240,17 @@
         <string>SolarPanel/LargeBlockSolarPanel</string>
         <string>SoundBlock/LargeBlockSoundBlock</string>
         <string>TerminalBlock/ControlPanel</string>
+        <string>TerminalBlock/LargeBlockSciFiTerminal</string>
         <string>TextPanel/LargeTextPanel</string>
         <string>CameraBlock/LargeCameraBlock</string>
         <string>Thrust/LargeBlockLargeThrust</string>
         <string>Thrust/LargeBlockSmallThrust</string>
+        <string>Thrust/LargeBlockLargeThrustSciFi</string>
+        <string>Thrust/LargeBlockSmallThrustSciFi</string>
         <string>Thrust/LargeBlockLargeAtmosphericThrust</string>
         <string>Thrust/LargeBlockSmallAtmosphericThrust</string>
+        <string>Thrust/LargeBlockLargeAtmosphericThrustSciFi</string>
+        <string>Thrust/LargeBlockSmallAtmosphericThrustSciFi</string>
         <string>Thrust/LargeBlockLargeHydrogenThrust</string>
         <string>Thrust/LargeBlockSmallHydrogenThrust</string>
         <string>VirtualMass/VirtualMassLarge</string>
@@ -223,6 +289,8 @@
 		<string>Cockpit/LargeBlockCouchCorner</string>
         <string>Kitchen/LargeBlockKitchen</string>
         <string>Planter/LargeBlockPlanters</string>
+        <string>CubeBlock/LargeBlockBarCounter</string>
+        <string>CubeBlock/LargeBlockBarCounterCorner</string>
         <string>CargoContainer/LargeBlockLockerRoom</string>
         <string>CargoContainer/LargeBlockLockerRoomCorner</string>
         <string>CargoContainer/LargeBlockLockers</string>
@@ -281,6 +349,10 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>MotorAdvancedStator/SmallAdvancedStator</string>
+        <string>MotorAdvancedStator/MediumHinge</string>
+        <string>MotorAdvancedStator/SmallHinge</string>
+        <string>MotorAdvancedRotor/MediumHingeHead</string>
+        <string>MotorAdvancedRotor/SmallHingeHead</string>
         <string>TextPanel/SmallLCDPanelWide</string>
         <string>TextPanel/SmallLCDPanel</string>
         <string>ProgrammableBlock/LargeProgrammableBlock</string>
@@ -384,6 +456,50 @@
         <string>CubeBlock/SmallWindow1x2SideLeftInv</string>
         <string>CubeBlock/SmallWindow1x2SideRightInv</string>
         <string>CubeBlock/SmallWindow1x1SideInv</string>
+        <string>CubeBlock/SmallSymbolA</string>
+        <string>CubeBlock/SmallSymbolB</string>
+        <string>CubeBlock/SmallSymbolC</string>
+        <string>CubeBlock/SmallSymbolD</string>
+        <string>CubeBlock/SmallSymbolE</string>
+        <string>CubeBlock/SmallSymbolF</string>
+        <string>CubeBlock/SmallSymbolG</string>
+        <string>CubeBlock/SmallSymbolH</string>
+        <string>CubeBlock/SmallSymbolI</string>
+        <string>CubeBlock/SmallSymbolJ</string>
+        <string>CubeBlock/SmallSymbolK</string>
+        <string>CubeBlock/SmallSymbolL</string>
+        <string>CubeBlock/SmallSymbolM</string>
+        <string>CubeBlock/SmallSymbolN</string>
+        <string>CubeBlock/SmallSymbolO</string>
+        <string>CubeBlock/SmallSymbolP</string>
+        <string>CubeBlock/SmallSymbolQ</string>
+        <string>CubeBlock/SmallSymbolR</string>
+        <string>CubeBlock/SmallSymbolS</string>
+        <string>CubeBlock/SmallSymbolT</string>
+        <string>CubeBlock/SmallSymbolU</string>
+        <string>CubeBlock/SmallSymbolV</string>
+        <string>CubeBlock/SmallSymbolW</string>
+        <string>CubeBlock/SmallSymbolX</string>
+        <string>CubeBlock/SmallSymbolY</string>
+        <string>CubeBlock/SmallSymbolZ</string>
+        <string>CubeBlock/SmallSymbol0</string>
+        <string>CubeBlock/SmallSymbol1</string>
+        <string>CubeBlock/SmallSymbol2</string>
+        <string>CubeBlock/SmallSymbol3</string>
+        <string>CubeBlock/SmallSymbol4</string>
+        <string>CubeBlock/SmallSymbol5</string>
+        <string>CubeBlock/SmallSymbol6</string>
+        <string>CubeBlock/SmallSymbol7</string>
+        <string>CubeBlock/SmallSymbol8</string>
+        <string>CubeBlock/SmallSymbol9</string>
+        <string>CubeBlock/SmallSymbolHyphen</string>
+        <string>CubeBlock/SmallSymbolUnderscore</string>
+        <string>CubeBlock/SmallSymbolDot</string>
+        <string>CubeBlock/SmallSymbolApostrophe</string>
+        <string>CubeBlock/SmallSymbolAnd</string>
+        <string>CubeBlock/SmallSymbolColon</string>
+        <string>CubeBlock/SmallSymbolExclamationMark</string>
+        <string>CubeBlock/SmallSymbolQuestionMark</string>
         <string>Decoy/SmallDecoy</string>
         <string>Drill/SmallBlockDrill</string>
         <string>Gyro/SmallBlockGyro</string>
@@ -423,8 +539,12 @@
         <string>CameraBlock/SmallCameraBlock</string>
         <string>Thrust/SmallBlockLargeThrust</string>
         <string>Thrust/SmallBlockSmallThrust</string>
+        <string>Thrust/SmallBlockLargeThrustSciFi</string>
+        <string>Thrust/SmallBlockSmallThrustSciFi</string>
         <string>Thrust/SmallBlockLargeAtmosphericThrust</string>
         <string>Thrust/SmallBlockSmallAtmosphericThrust</string>
+        <string>Thrust/SmallBlockLargeAtmosphericThrustSciFi</string>
+        <string>Thrust/SmallBlockSmallAtmosphericThrustSciFi</string>
         <string>Thrust/SmallBlockLargeHydrogenThrust</string>
         <string>Thrust/SmallBlockSmallHydrogenThrust</string>
         <string>VirtualMass/VirtualMassSmall</string>
@@ -448,6 +568,8 @@
         <string>Cockpit/SmallBlockCockpitIndustrial</string>		
 		<string>Cockpit/OpenCockpitSmall</string>
 		<string>Ladder2/LadderSmall</string>
+        <string>Door/SmallDoor</string>
+        <string>Door/SmallSideDoor</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -678,6 +800,14 @@
         <string>EmoteDefinition/EmotePointRight</string>
 		<string>EmoteDefinition/EmoteCold</string>
 		<string>EmoteDefinition/EmoteCheckWrist</string>
+        <string>EmoteDefinition/EmoteCharge</string>
+        <string>EmoteDefinition/EmoteComeHereBaby</string>
+        <string>EmoteDefinition/EmoteDanceDisco1</string>
+        <string>EmoteDefinition/EmoteDanceDisco2</string>
+        <string>EmoteDefinition/EmoteLookingAround</string>
+        <string>EmoteDefinition/EmoteStretching</string>
+        <string>EmoteDefinition/EmoteWhatever</string>
+        <string>EmoteDefinition/EmoteYelling</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -844,9 +974,9 @@
           <string>Cockpit/SmallBlockCockpitIndustrial</string>
           <string>Cockpit/LargeBlockCockpitIndustrial</string>
         </ItemIds>
-      </Category>-->
+      </Category>
 	  
-      <!--<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
           <TypeId>GuiBlockCategoryDefinition</TypeId>
           <SubtypeId/>
@@ -889,9 +1019,9 @@
 		  <string>CubeBlock/Freight2</string>
 		  <string>CubeBlock/Freight3</string>
         </ItemIds>
-      </Category>-->
+      </Category>
       
-      <!--<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
           <TypeId>GuiBlockCategoryDefinition</TypeId>
           <SubtypeId/>
@@ -910,7 +1040,8 @@
           <string>CubeBlock/DeadBody05</string>
           <string>CubeBlock/DeadBody06</string>
         </ItemIds>
-      </Category>-->
+        <DLC>Frostbite</DLC>
+      </Category>
 	  
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
@@ -929,5 +1060,102 @@
         <string>VoxelHandDefinition/AutoLevel</string>
       </ItemIds>
     </Category>
+      
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SparksOfTheFuturePack</DisplayName>
+      <Name>SparksOfTheFutureBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>TextPanel/LargeLCDPanel5x5</string>
+        <string>TextPanel/LargeLCDPanel5x3</string>
+        <string>TextPanel/LargeLCDPanel3x3</string>
+        <string>CubeBlock/LargeBlockSciFiWall</string>
+        <string>EmissiveBlock/LargeNeonTubesStraight1</string>
+        <string>EmissiveBlock/LargeNeonTubesStraight2</string>
+        <string>EmissiveBlock/LargeNeonTubesCorner</string>
+        <string>EmissiveBlock/LargeNeonTubesCorner90</string>
+        <string>EmissiveBlock/LargeNeonTubesBendUp</string>
+        <string>EmissiveBlock/LargeNeonTubesBendDown</string>
+        <string>EmissiveBlock/LargeNeonTubesStraightEnd1</string>
+        <string>EmissiveBlock/LargeNeonTubesStraightEnd2</string>
+        <string>EmissiveBlock/LargeNeonTubesStraightDown</string>
+        <string>EmissiveBlock/LargeNeonTubesU</string>
+        <string>TerminalBlock/LargeBlockSciFiTerminal</string>
+        <string>ButtonPanel/LargeSciFiButtonTerminal</string>
+        <string>ButtonPanel/LargeSciFiButtonPanel</string>
+        <string>Door/SmallSideDoor</string>
+        <string>CubeBlock/LargeBlockBarCounter</string>
+        <string>CubeBlock/LargeBlockBarCounterCorner</string>
+        <string>Thrust/SmallBlockLargeThrustSciFi</string>
+        <string>Thrust/SmallBlockSmallThrustSciFi</string>
+        <string>Thrust/SmallBlockLargeAtmosphericThrustSciFi</string>
+        <string>Thrust/SmallBlockSmallAtmosphericThrustSciFi</string>
+        <string>Thrust/LargeBlockLargeThrustSciFi</string>
+        <string>Thrust/LargeBlockSmallThrustSciFi</string>
+        <string>Thrust/LargeBlockLargeAtmosphericThrustSciFi</string>
+        <string>Thrust/LargeBlockSmallAtmosphericThrustSciFi</string>
+      </ItemIds>
+    </Category>
+      
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Symbols</DisplayName>
+      <Name>Symbols</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+          <string>CubeBlock/LargeSymbolA</string>
+          <string>CubeBlock/LargeSymbolB</string>
+          <string>CubeBlock/LargeSymbolC</string>
+          <string>CubeBlock/LargeSymbolD</string>
+          <string>CubeBlock/LargeSymbolE</string>
+          <string>CubeBlock/LargeSymbolF</string>
+          <string>CubeBlock/LargeSymbolG</string>
+          <string>CubeBlock/LargeSymbolH</string>
+          <string>CubeBlock/LargeSymbolI</string>
+          <string>CubeBlock/LargeSymbolJ</string>
+          <string>CubeBlock/LargeSymbolK</string>
+          <string>CubeBlock/LargeSymbolL</string>
+          <string>CubeBlock/LargeSymbolM</string>
+          <string>CubeBlock/LargeSymbolN</string>
+          <string>CubeBlock/LargeSymbolO</string>
+          <string>CubeBlock/LargeSymbolP</string>
+          <string>CubeBlock/LargeSymbolQ</string>
+          <string>CubeBlock/LargeSymbolR</string>
+          <string>CubeBlock/LargeSymbolS</string>
+          <string>CubeBlock/LargeSymbolT</string>
+          <string>CubeBlock/LargeSymbolU</string>
+          <string>CubeBlock/LargeSymbolV</string>
+          <string>CubeBlock/LargeSymbolW</string>
+          <string>CubeBlock/LargeSymbolX</string>
+          <string>CubeBlock/LargeSymbolY</string>
+          <string>CubeBlock/LargeSymbolZ</string>
+          <string>CubeBlock/LargeSymbol0</string>
+          <string>CubeBlock/LargeSymbol1</string>
+          <string>CubeBlock/LargeSymbol2</string>
+          <string>CubeBlock/LargeSymbol3</string>
+          <string>CubeBlock/LargeSymbol4</string>
+          <string>CubeBlock/LargeSymbol5</string>
+          <string>CubeBlock/LargeSymbol6</string>
+          <string>CubeBlock/LargeSymbol7</string>
+          <string>CubeBlock/LargeSymbol8</string>
+          <string>CubeBlock/LargeSymbol9</string>
+          <string>CubeBlock/LargeSymbolHyphen</string>
+          <string>CubeBlock/LargeSymbolUnderscore</string>
+          <string>CubeBlock/LargeSymbolDot</string>
+          <string>CubeBlock/LargeSymbolApostrophe</string>
+          <string>CubeBlock/LargeSymbolAnd</string>
+          <string>CubeBlock/LargeSymbolColon</string>
+          <string>CubeBlock/LargeSymbolExclamationMark</string>
+          <string>CubeBlock/LargeSymbolQuestionMark</string>
+      </ItemIds>
+    </Category>-->
+
   </CategoryClasses>
 </Definitions>
