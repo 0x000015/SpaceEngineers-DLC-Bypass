@@ -946,7 +946,7 @@
         <string>HydrogenEngine/SmallHydrogenEngine</string>
       </ItemIds>
     </Category>
-      <!--<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
           <TypeId>GuiBlockCategoryDefinition</TypeId>
           <SubtypeId/>
@@ -1040,7 +1040,6 @@
           <string>CubeBlock/DeadBody05</string>
           <string>CubeBlock/DeadBody06</string>
         </ItemIds>
-        <DLC>Frostbite</DLC>
       </Category>
 	  
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -1155,7 +1154,7 @@
           <string>CubeBlock/LargeSymbolExclamationMark</string>
           <string>CubeBlock/LargeSymbolQuestionMark</string>
       </ItemIds>
-    </Category>-->
+    </Category>
 
   </CategoryClasses>
 </Definitions>
