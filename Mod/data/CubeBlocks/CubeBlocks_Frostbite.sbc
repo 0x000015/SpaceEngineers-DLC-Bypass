@@ -46,6 +46,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_DoorDefinition">
@@ -112,6 +113,7 @@
             <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>115</PCU>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_DoorDefinition">
@@ -169,6 +171,7 @@
             <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>115</PCU>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <Definition>
@@ -205,12 +208,14 @@
                     <PlacementMode>Both</PlacementMode>
                 </DynamicMode>
             </VoxelPlacement>
+            <BlockPairName>DeadBody</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>10</PCU>
             <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <Definition>
@@ -253,6 +258,7 @@
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>10</PCU>
             <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <Definition>
@@ -295,6 +301,7 @@
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>10</PCU>
             <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <Definition>
@@ -337,6 +344,7 @@
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>10</PCU>
             <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <Definition>
@@ -379,6 +387,7 @@
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>10</PCU>
             <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <Definition>
@@ -421,6 +430,7 @@
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>10</PCU>
             <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Frostbite</DLC> -->
         </Definition>
 
         <!-- End of Frozen Blocks -->

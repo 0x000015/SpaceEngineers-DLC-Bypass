@@ -79,6 +79,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <!-- <DLC>DecorativeBlocks2</DLC> -->
       <AdditionalEmissiveMaterials>
           <string>FoodDispenser</string>
       </AdditionalEmissiveMaterials>
@@ -128,6 +129,7 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <!-- <DLC>DecorativeBlocks2</DLC> -->
       <IsAirTight>false</IsAirTight>
     </Definition>
 	
@@ -178,6 +180,7 @@
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
 
@@ -225,6 +228,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>14</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
       </Definition>
 
 
@@ -264,13 +268,14 @@
               <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindowWallCenterConstruction_2.mwm" />
               <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindowWallCenterConstruction_3.mwm" />
           </BuildProgressModels>
-          <MirroringX>Y</MirroringX>
-          <MirroringZ>X</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>1</PCU>
           <IsAirTight>true</IsAirTight>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
       </Definition>
       <Definition>
           <Id>
@@ -308,13 +313,15 @@
               <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindowWallLeftConstruction_2.mwm" />
               <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindowWallLeftConstruction_3.mwm" />
           </BuildProgressModels>
-          <MirroringX>Y</MirroringX>
-          <MirroringZ>X</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringBlock>WindowWallRight</MirroringBlock>
           <EdgeType>Light</EdgeType>
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>14</BuildTimeSeconds>
           <PCU>1</PCU>
           <IsAirTight>true</IsAirTight>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
       </Definition>
       <Definition>
           <Id>
@@ -352,13 +359,15 @@
               <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindowWallRightConstruction_2.mwm" />
               <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindowWallRightConstruction_3.mwm" />
           </BuildProgressModels>
-          <MirroringX>Y</MirroringX>
-          <MirroringZ>X</MirroringZ>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <MirroringBlock>WindowWallLeft</MirroringBlock>
           <EdgeType>Light</EdgeType>
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>14</BuildTimeSeconds>
           <PCU>1</PCU>
           <IsAirTight>true</IsAirTight>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
       </Definition>
       
       
@@ -410,6 +419,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>12</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
 
@@ -446,17 +456,25 @@
               <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\TransparentLCD_Construction_1.mwm" />
               <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TransparentLCD_Construction_2.mwm" />
           </BuildProgressModels>
+          <ScreenAreas>
+               <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+               <ScreenArea Name="TransparentScreenArea90" DisplayName="TransparentScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />         
+               <ScreenArea Name="TransparentScreenArea180" DisplayName="TransparentScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+               <ScreenArea Name="TransparentScreenArea270" DisplayName="TransparentScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+          </ScreenAreas>
           <MirroringZ>Y</MirroringZ>
           <MirroringY>Z</MirroringY>
           <EdgeType>Light</EdgeType>
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>6</BuildTimeSeconds>
+          <MaxScreenRenderDistance>120</MaxScreenRenderDistance>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.00002</RequiredPowerInput>
           <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
           <PCU>50</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
       </Definition>
       <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
           <Id>
@@ -490,6 +508,12 @@
           <BuildProgressModels>
               <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TransparentLCD_Construction_1.mwm" />
           </BuildProgressModels>
+          <ScreenAreas>
+               <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+               <ScreenArea Name="TransparentScreenArea90" DisplayName="TransparentScreenArea90" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />         
+               <ScreenArea Name="TransparentScreenArea180" DisplayName="TransparentScreenArea270" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+               <ScreenArea Name="TransparentScreenArea270" DisplayName="TransparentScreenArea180" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+          </ScreenAreas>
           <VoxelPlacement>
               <StaticMode>
                   <PlacementMode>OutsideVoxel</PlacementMode>
@@ -507,12 +531,14 @@
           <EdgeType>Light</EdgeType>
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>3</BuildTimeSeconds>
+          <MaxScreenRenderDistance>60</MaxScreenRenderDistance>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.00002</RequiredPowerInput>
           <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
           <PCU>50</PCU>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
       </Definition>
 
 
@@ -556,6 +582,7 @@
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <BlockPairName>Catwalk</BlockPairName>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -598,6 +625,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -639,6 +667,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -680,6 +709,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -721,6 +751,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -763,6 +794,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -805,6 +837,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
 
@@ -850,6 +883,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -892,6 +926,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>8</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -934,6 +969,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>8</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       
@@ -973,6 +1009,7 @@
           <BuildTimeSeconds>6</BuildTimeSeconds>
           <BlockPairName>RailingStraight</BlockPairName>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -1014,6 +1051,7 @@
           <MirroringY>X</MirroringY>
           <BuildTimeSeconds>6</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -1054,6 +1092,7 @@
 		  <MirroringZ>MinusHalfY</MirroringZ>
           <BuildTimeSeconds>6</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -1097,6 +1136,7 @@
 		  <MirroringZ>MinusHalfY</MirroringZ>
           <BuildTimeSeconds>6</BuildTimeSeconds>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -1135,6 +1175,7 @@
           <BuildTimeSeconds>6</BuildTimeSeconds>
           <BlockPairName>RailingHalfRight</BlockPairName>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -1173,6 +1214,7 @@
           <BuildTimeSeconds>6</BuildTimeSeconds>
           <BlockPairName>RailingHalfLeft</BlockPairName>
           <PCU>1</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
 
@@ -1215,6 +1257,7 @@
           <DamagedSound>ParticleElectrical</DamagedSound>
           <BlockPairName>RotatingLight</BlockPairName>
           <PCU>25</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
           <RotationSpeedBounds Min="0.01" Max="0.1" Default="0.08" />
           <LightRadius Min="1" Max="5" Default="1" />
@@ -1278,6 +1321,7 @@
           <DamagedSound>ParticleElectrical</DamagedSound>
           <BlockPairName>RotatingLight</BlockPairName>
           <PCU>25</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
           <RotationSpeedBounds Min="0.01" Max="0.1" Default="0.08" />
           <LightRadius Min="1" Max="5" Default="1" />
@@ -1335,6 +1379,7 @@
           <EdgeType>Light</EdgeType>          
           <BuildTimeSeconds>8</BuildTimeSeconds>
           <PCU>10</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -1379,6 +1424,7 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>10</BuildTimeSeconds>
           <PCU>10</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
       <Definition>
@@ -1423,8 +1469,10 @@
           <HasInventory>false</HasInventory>
           <BuildTimeSeconds>12</BuildTimeSeconds>
           <PCU>10</PCU>
+          <!-- <DLC>DecorativeBlocks2</DLC> -->
           <IsAirTight>false</IsAirTight>
       </Definition>
+      
     <!-- End of Decorative Blocks 2 -->
   </CubeBlocks>
 </Definitions>

@@ -123,7 +123,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
-      <!-- <DLC>SparksOfTheFuture</DLC>-->
+      <!-- <DLC>SparksOfTheFuture</DLC> -->
     </Definition>
       
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -751,7 +751,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>115</PCU>
-	    <DepressurizationEffectOffset x="2" y="0" z ="0" />
+	    <DepressurizationEffectOffset x="0.5" y="0" z ="0" />
       <!-- <DLC>SparksOfTheFuture</DLC> -->
     </Definition>
       

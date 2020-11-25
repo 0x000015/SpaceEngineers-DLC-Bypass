@@ -243,6 +243,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>10</PCU>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <!-- <DLC>Economy</DLC> -->
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_StoreBlockDefinition">
@@ -295,6 +296,7 @@
             <PCU>10</PCU>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
             <IsAirTight>false</IsAirTight>
+            <!-- <DLC>Economy</DLC> -->
         </Definition>
     
     </CubeBlocks>

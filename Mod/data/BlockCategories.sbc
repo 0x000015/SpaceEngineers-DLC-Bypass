@@ -96,6 +96,32 @@
         <string>CubeBlock/LargeHeavyBlockArmorCorner2Tip</string>
         <string>CubeBlock/LargeHeavyBlockArmorInvCorner2Base</string>
         <string>CubeBlock/LargeHeavyBlockArmorInvCorner2Tip</string>
+		
+		<string>CubeBlock/LargeBlockArmorHalfSlopeInverted</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopeInverted</string>
+		<string>CubeBlock/LargeBlockArmorHalfSlopeCorner</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopeCorner</string>
+		<string>CubeBlock/LargeBlockArmorHalfSlopeCornerInverted</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopeCornerInverted</string>
+		<string>CubeBlock/LargeBlockArmorSlopedCornerTip</string>
+		<string>CubeBlock/LargeBlockHeavyArmorSlopedCornerTip</string>
+		<string>CubeBlock/LargeBlockArmorSlopedCornerBase</string>
+		<string>CubeBlock/LargeBlockHeavyArmorSlopedCornerBase</string>
+		<string>CubeBlock/LargeBlockArmorSlopedCorner</string>
+		<string>CubeBlock/LargeBlockHeavyArmorSlopedCorner</string>
+		<string>CubeBlock/LargeBlockArmorHalfSlopedCornerBase</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopedCornerBase</string>
+		<string>CubeBlock/LargeBlockArmorHalfCorner</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfCorner</string>
+		<string>CubeBlock/LargeBlockArmorCornerSquare</string>
+		<string>CubeBlock/LargeBlockHeavyArmorCornerSquare</string>
+		<string>CubeBlock/LargeBlockArmorCornerSquareInverted</string>
+		<string>CubeBlock/LargeBlockHeavyArmorCornerSquareInverted</string>
+		<string>CubeBlock/LargeBlockArmorHalfSlopedCorner</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopedCorner</string>
+		
+		
+		
         <string>CubeBlock/LargeBlockInteriorWall</string>
         <string>CubeBlock/LargeBlockSciFiWall</string>
         <string>CubeBlock/LargeCoverWall</string>
@@ -138,6 +164,8 @@
         <string>CubeBlock/Window1x2SideLeftInv</string>
         <string>CubeBlock/Window1x2SideRightInv</string>
         <string>CubeBlock/Window1x1SideInv</string>
+        <string>CubeBlock/Viewport1</string>
+        <string>CubeBlock/Viewport2</string>
         <string>CubeBlock/DeadBody01</string>
         <string>CubeBlock/DeadBody02</string>
         <string>CubeBlock/DeadBody03</string>
@@ -188,6 +216,7 @@
         <string>CubeBlock/LargeSymbolColon</string>
         <string>CubeBlock/LargeSymbolExclamationMark</string>
         <string>CubeBlock/LargeSymbolQuestionMark</string>
+        <string>ExhaustBlock/LargeExhaustPipe</string>
         <string>Decoy/LargeDecoy</string>
         <string>Door/(null)</string>
         <string>Drill/LargeBlockDrill</string>
@@ -218,6 +247,12 @@
         <string>MotorSuspension/Suspension1x1mirrored</string>
         <string>MotorSuspension/Suspension3x3mirrored</string>
         <string>MotorSuspension/Suspension5x5mirrored</string>
+        <string>MotorSuspension/OffroadSuspension1x1</string>
+        <string>MotorSuspension/OffroadSuspension3x3</string>
+        <string>MotorSuspension/OffroadSuspension5x5</string>
+        <string>MotorSuspension/OffroadSuspension1x1mirrored</string>
+        <string>MotorSuspension/OffroadSuspension3x3mirrored</string>
+        <string>MotorSuspension/OffroadSuspension5x5mirrored</string>
         <string>OreDetector/LargeOreDetector</string>
         <string>Passage/(null)</string>
         <string>PistonBase/LargePistonBase</string>
@@ -261,6 +296,12 @@
         <string>Wheel/Wheel1x1</string>
         <string>Wheel/Wheel3x3</string>
         <string>Wheel/Wheel5x5</string>
+        <string>Wheel/OffroadRealWheel</string>
+        <string>Wheel/OffroadRealWheel1x1</string>
+        <string>Wheel/OffroadRealWheel5x5</string>
+        <string>Wheel/OffroadWheel1x1</string>
+        <string>Wheel/OffroadWheel3x3</string>
+        <string>Wheel/OffroadWheel5x5</string>
         <string>TimerBlock/TimerBlockLarge</string>
         <string>LaserAntenna/LargeBlockLaserAntenna</string>
         <string>OxygenGenerator/(null)</string>
@@ -337,6 +378,9 @@
 		  <string>CubeBlock/Freight1</string>
 		  <string>CubeBlock/Freight2</string>
 		  <string>CubeBlock/Freight3</string>
+          <string>CubeBlock/StorageShelf1</string>
+          <string>CubeBlock/StorageShelf2</string>
+          <string>CubeBlock/StorageShelf3</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -436,6 +480,31 @@
         <string>CubeBlock/SmallHeavyBlockArmorCorner2Tip</string>
         <string>CubeBlock/SmallHeavyBlockArmorInvCorner2Base</string>
         <string>CubeBlock/SmallHeavyBlockArmorInvCorner2Tip</string>
+		
+		
+		<string>CubeBlock/SmallBlockArmorHalfSlopeInverted</string>
+		<string>CubeBlock/SmallBlockHeavyArmorHalfSlopeInverted</string>
+		<string>CubeBlock/SmallBlockArmorHalfSlopeCorner</string>
+		<string>CubeBlock/SmallBlockHeavyArmorHalfSlopeCorner</string>
+		<string>CubeBlock/SmallBlockArmorHalfSlopeCornerInverted</string>
+		<string>CubeBlock/SmallBlockHeavyArmorHalfSlopeCornerInverted</string>
+		<string>CubeBlock/SmallBlockArmorSlopedCornerTip</string>
+		<string>CubeBlock/SmallBlockHeavyArmorSlopedCornerTip</string>
+		<string>CubeBlock/SmallBlockArmorSlopedCornerBase</string>
+		<string>CubeBlock/SmallBlockHeavyArmorSlopedCornerBase</string>
+		<string>CubeBlock/SmallBlockArmorSlopedCorner</string>
+		<string>CubeBlock/SmallBlockHeavyArmorSlopedCorner</string>
+		<string>CubeBlock/SmallBlockArmorHalfSlopedCornerBase</string>
+		<string>CubeBlock/SmallBlockHeavyArmorHalfSlopedCornerBase</string>
+		<string>CubeBlock/SmallBlockArmorHalfCorner</string>
+		<string>CubeBlock/SmallBlockHeavyArmorHalfCorner</string>
+		<string>CubeBlock/SmallBlockArmorCornerSquare</string>
+		<string>CubeBlock/SmallBlockHeavyArmorCornerSquare</string>
+		<string>CubeBlock/SmallBlockArmorCornerSquareInverted</string>
+		<string>CubeBlock/SmallBlockHeavyArmorCornerSquareInverted</string>
+		<string>CubeBlock/SmallBlockArmorHalfSlopedCorner</string>
+		<string>CubeBlock/SmallBlockHeavyArmorHalfSlopedCorner</string>
+		
         <string>CubeBlock/SmallWindow1x1Face</string>
         <string>CubeBlock/SmallWindow1x1Flat</string>
         <string>CubeBlock/SmallWindow1x1FlatInv</string>
@@ -500,6 +569,7 @@
         <string>CubeBlock/SmallSymbolColon</string>
         <string>CubeBlock/SmallSymbolExclamationMark</string>
         <string>CubeBlock/SmallSymbolQuestionMark</string>
+        <string>ExhaustBlock/SmallExhaustPipe</string>
         <string>Decoy/SmallDecoy</string>
         <string>Drill/SmallBlockDrill</string>
         <string>Gyro/SmallBlockGyro</string>
@@ -515,6 +585,12 @@
         <string>MotorSuspension/SmallSuspension1x1mirrored</string>
         <string>MotorSuspension/SmallSuspension3x3mirrored</string>
         <string>MotorSuspension/SmallSuspension5x5mirrored</string>
+        <string>MotorSuspension/OffroadSmallSuspension1x1</string>
+        <string>MotorSuspension/OffroadSmallSuspension3x3</string>
+        <string>MotorSuspension/OffroadSmallSuspension5x5</string>
+        <string>MotorSuspension/OffroadSmallSuspension1x1mirrored</string>
+        <string>MotorSuspension/OffroadSmallSuspension3x3mirrored</string>
+        <string>MotorSuspension/OffroadSmallSuspension5x5mirrored</string>
         <string>OreDetector/SmallBlockOreDetector</string>
         <string>PistonBase/SmallPistonBase</string>
         <string>PistonTop/SmallPistonTop</string>
@@ -555,6 +631,12 @@
         <string>Wheel/SmallWheel1x1</string>
         <string>Wheel/SmallWheel3x3</string>
         <string>Wheel/SmallWheel5x5</string>
+        <string>Wheel/OffroadSmallRealWheel</string>
+        <string>Wheel/OffroadSmallRealWheel1x1</string>
+        <string>Wheel/OffroadSmallRealWheel5x5</string>
+        <string>Wheel/OffroadSmallWheel1x1</string>
+        <string>Wheel/OffroadSmallWheel3x3</string>
+        <string>Wheel/OffroadSmallWheel5x5</string>
         <string>TimerBlock/TimerBlockSmall</string>
         <string>Cockpit/DBSmallBlockFighterCockpit</string>
         <string>LaserAntenna/SmallBlockLaserAntenna</string>
@@ -567,9 +649,17 @@
         <string>SurvivalKit/SurvivalKit</string>
         <string>Cockpit/SmallBlockCockpitIndustrial</string>		
 		<string>Cockpit/OpenCockpitSmall</string>
+        <string>Cockpit/RoverCockpit</string>
+        <string>Cockpit/BuggyCockpit</string>
 		<string>Ladder2/LadderSmall</string>
         <string>Door/SmallDoor</string>
         <string>Door/SmallSideDoor</string>
+        <string>InteriorLight/OffsetLight</string>
+        <string>ReflectorLight/OffsetSpotlight</string>
+        <string>CubeBlock/BarredWindow</string>
+        <string>CubeBlock/BarredWindowSlope</string>
+        <string>CubeBlock/BarredWindowSide</string>
+        <string>CubeBlock/BarredWindowFace</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -635,6 +725,31 @@
         <string>LargeHalfSlopeArmorBlock</string>
         <string>LargeHeavyHalfArmorBlock</string>
         <string>LargeHeavyHalfSlopeArmorBlock</string>
+		
+		<string>CubeBlock/LargeBlockArmorHalfSlopeInverted</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopeInverted</string>
+		<string>CubeBlock/LargeBlockArmorHalfSlopeCorner</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopeCorner</string>
+		<string>CubeBlock/LargeBlockArmorHalfSlopeCornerInverted</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopeCornerInverted</string>
+		<string>CubeBlock/LargeBlockArmorSlopedCornerTip</string>
+		<string>CubeBlock/LargeBlockHeavyArmorSlopedCornerTip</string>
+		<string>CubeBlock/LargeBlockArmorSlopedCornerBase</string>
+		<string>CubeBlock/LargeBlockHeavyArmorSlopedCornerBase</string>
+		<string>CubeBlock/LargeBlockArmorSlopedCorner</string>
+		<string>CubeBlock/LargeBlockHeavyArmorSlopedCorner</string>
+		<string>CubeBlock/LargeBlockArmorHalfSlopedCornerBase</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopedCornerBase</string>
+		<string>CubeBlock/LargeBlockArmorHalfCorner</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfCorner</string>
+		<string>CubeBlock/LargeBlockArmorCornerSquare</string>
+		<string>CubeBlock/LargeBlockHeavyArmorCornerSquare</string>
+		<string>CubeBlock/LargeBlockArmorCornerSquareInverted</string>
+		<string>CubeBlock/LargeBlockHeavyArmorCornerSquareInverted</string>
+		<string>CubeBlock/LargeBlockArmorHalfSlopedCorner</string>
+		<string>CubeBlock/LargeBlockHeavyArmorHalfSlopedCorner</string>
+		
+		
       </ItemIds>       
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -740,6 +855,12 @@
         <string>CubeBlock/Window2x3FlatInv</string>
         <string>CubeBlock/Window3x3Flat</string>
         <string>CubeBlock/Window3x3FlatInv</string>
+        <string>CubeBlock/Viewport1</string>
+        <string>CubeBlock/Viewport2</string>
+        <string>CubeBlock/BarredWindow</string>
+        <string>CubeBlock/BarredWindowSlope</string>
+        <string>CubeBlock/BarredWindowSide</string>
+        <string>CubeBlock/BarredWindowFace</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -808,6 +929,8 @@
         <string>EmoteDefinition/EmoteStretching</string>
         <string>EmoteDefinition/EmoteWhatever</string>
         <string>EmoteDefinition/EmoteYelling</string>
+		<string>EmoteDefinition/EmoteGoClangYourself</string>
+		<string>EmoteDefinition/EmoteDrunk</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -904,6 +1027,8 @@
         <string>Cockpit/LargeBlockCockpitIndustrial</string>
 		<string>Cockpit/OpenCockpitSmall</string>
 		<string>Cockpit/OpenCockpitLarge</string>
+        <string>Cockpit/RoverCockpit</string>
+        <string>Cockpit/BuggyCockpit</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -946,7 +1071,7 @@
         <string>HydrogenEngine/SmallHydrogenEngine</string>
       </ItemIds>
     </Category>
-      <!--<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
         <Id>
           <TypeId>GuiBlockCategoryDefinition</TypeId>
           <SubtypeId/>
@@ -1040,7 +1165,7 @@
           <string>CubeBlock/DeadBody05</string>
           <string>CubeBlock/DeadBody06</string>
         </ItemIds>
-        <DLC>Frostbite</DLC>
+        <!-- <DLC>Frostbite</DLC> -->
       </Category>
 	  
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -1155,7 +1280,45 @@
           <string>CubeBlock/LargeSymbolExclamationMark</string>
           <string>CubeBlock/LargeSymbolQuestionMark</string>
       </ItemIds>
-    </Category>-->
+    </Category>
+      
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+          <TypeId>GuiBlockCategoryDefinition</TypeId>
+          <SubtypeId/>
+        </Id>
+        <DisplayName>DisplayName_DLC_ScrapRace</DisplayName>
+        <Name>ScrapRacePack</Name>
+        <StrictSearch>true</StrictSearch>
+        <ItemIds>
+          <string>ExhaustBlock/LargeExhaustPipe</string>
+          <string>Cockpit/BuggyCockpit</string>
+          <string>CubeBlock/Viewport1</string>
+          <string>CubeBlock/Viewport2</string>
+          <string>MotorSuspension/OffroadSuspension1x1</string>
+          <string>MotorSuspension/OffroadSuspension3x3</string>
+          <string>MotorSuspension/OffroadSuspension5x5</string>
+          <string>MotorSuspension/OffroadSuspension1x1mirrored</string>
+          <string>MotorSuspension/OffroadSuspension3x3mirrored</string>
+          <string>MotorSuspension/OffroadSuspension5x5mirrored</string>
+          <string>Wheel/OffroadRealWheel</string>
+          <string>Wheel/OffroadRealWheel1x1</string>
+          <string>Wheel/OffroadRealWheel5x5</string>
+          <string>Wheel/OffroadWheel1x1</string>
+          <string>Wheel/OffroadWheel3x3</string>
+          <string>Wheel/OffroadWheel5x5</string>
+          <string>InteriorLight/OffsetLight</string>
+          <string>ReflectorLight/OffsetSpotlight</string>
+          <string>CubeBlock/BarredWindow</string>
+          <string>CubeBlock/BarredWindowSlope</string>
+          <string>CubeBlock/BarredWindowSide</string>
+          <string>CubeBlock/BarredWindowFace</string>
+          <string>CubeBlock/StorageShelf1</string>
+          <string>CubeBlock/StorageShelf2</string>
+          <string>CubeBlock/StorageShelf3</string>
+        </ItemIds>
+        <!-- <DLC>ScrapRace</DLC> -->
+      </Category>
 
   </CategoryClasses>
 </Definitions>
