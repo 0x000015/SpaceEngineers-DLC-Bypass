@@ -1,5 +1,8 @@
 # Space Engineers DLC Bypass
 
+## Notes
+
+This is fully automated which means there may be issues. If you find any please submit an issue.
 
 ## DLCs that this covers
  - Wasteland
