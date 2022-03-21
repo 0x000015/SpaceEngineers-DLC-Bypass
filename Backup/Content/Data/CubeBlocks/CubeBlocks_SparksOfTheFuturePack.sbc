@@ -61,6 +61,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>50</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -122,6 +123,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>50</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -183,6 +185,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>50</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -218,6 +221,7 @@
             <BuildTimeSeconds>14</BuildTimeSeconds>
             <PCU>1</PCU>
             <IsAirTight>true</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -255,6 +259,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -292,6 +297,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -331,6 +337,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -369,6 +376,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -404,6 +412,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>4</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -441,6 +450,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -478,6 +488,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -515,6 +526,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>7</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -554,6 +566,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition>
@@ -599,6 +612,7 @@
             </DestroyEffectOffset>
             <PCU>5</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
@@ -681,6 +695,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>50</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_DoorDefinition">
@@ -737,6 +752,7 @@
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>115</PCU>
             <DepressurizationEffectOffset x="0.5" y="0" z ="0" />
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_PlanterDefinition">
@@ -781,6 +797,7 @@
             <BuildTimeSeconds>14</BuildTimeSeconds>
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_PlanterDefinition">
@@ -828,6 +845,7 @@
             <BuildTimeSeconds>18</BuildTimeSeconds>
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
@@ -917,6 +935,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>100</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
         </Definition>
 
         <!-- Region Thrusters-->
@@ -1013,6 +1032,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
+            <DLC>SparksOfTheFuture</DLC>
             <TargetingGroups>
                 <string>Propulsion</string>
             </TargetingGroups>
@@ -1109,6 +1129,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
+            <DLC>SparksOfTheFuture</DLC>
             <TargetingGroups>
                 <string>Propulsion</string>
             </TargetingGroups>
@@ -1206,6 +1227,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
+            <DLC>SparksOfTheFuture</DLC>
             <TargetingGroups>
                 <string>Propulsion</string>
             </TargetingGroups>
@@ -1304,6 +1326,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
+            <DLC>SparksOfTheFuture</DLC>
             <TargetingGroups>
                 <string>Propulsion</string>
             </TargetingGroups>
@@ -1410,6 +1433,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
+            <DLC>SparksOfTheFuture</DLC>
             <TargetingGroups>
                 <string>Propulsion</string>
             </TargetingGroups>
@@ -1516,6 +1540,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
+            <DLC>SparksOfTheFuture</DLC>
             <TargetingGroups>
                 <string>Propulsion</string>
             </TargetingGroups>
@@ -1621,6 +1646,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
+            <DLC>SparksOfTheFuture</DLC>
             <TargetingGroups>
                 <string>Propulsion</string>
             </TargetingGroups>
@@ -1728,6 +1754,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>15</PCU>
             <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
             <TargetingGroups>
                 <string>Propulsion</string>
             </TargetingGroups>

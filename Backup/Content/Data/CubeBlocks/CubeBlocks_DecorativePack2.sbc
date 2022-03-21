@@ -79,6 +79,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>10</PCU>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DLC>DecorativeBlocks2</DLC>
             <AdditionalEmissiveMaterials>
                 <string>FoodDispenser</string>
             </AdditionalEmissiveMaterials>
@@ -128,6 +129,7 @@
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
 
@@ -178,6 +180,7 @@
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
 
@@ -225,6 +228,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>14</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
         </Definition>
 
 
@@ -271,6 +275,7 @@
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
             <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks2</DLC>
         </Definition>
         <Definition>
             <Id>
@@ -316,6 +321,7 @@
             <BuildTimeSeconds>14</BuildTimeSeconds>
             <PCU>1</PCU>
             <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks2</DLC>
         </Definition>
         <Definition>
             <Id>
@@ -361,6 +367,7 @@
             <BuildTimeSeconds>14</BuildTimeSeconds>
             <PCU>1</PCU>
             <IsAirTight>true</IsAirTight>
+            <DLC>DecorativeBlocks2</DLC>
         </Definition>
 
 
@@ -412,6 +419,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>12</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
 
@@ -466,6 +474,7 @@
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <PCU>50</PCU>
+            <DLC>DecorativeBlocks2</DLC>
         </Definition>
         <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
             <Id>
@@ -529,6 +538,7 @@
             <PCU>50</PCU>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
+            <DLC>DecorativeBlocks2</DLC>
         </Definition>
 
 
@@ -572,6 +582,7 @@
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <BlockPairName>Catwalk</BlockPairName>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -614,6 +625,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -655,6 +667,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -696,6 +709,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -737,6 +751,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -779,6 +794,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -821,6 +837,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
 
@@ -866,6 +883,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -908,6 +926,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>8</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -950,6 +969,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>8</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
 
@@ -989,6 +1009,7 @@
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <BlockPairName>RailingStraight</BlockPairName>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -1030,6 +1051,7 @@
             <MirroringY>X</MirroringY>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -1070,6 +1092,7 @@
             <MirroringZ>MinusHalfY</MirroringZ>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -1113,6 +1136,7 @@
             <MirroringZ>MinusHalfY</MirroringZ>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -1151,6 +1175,7 @@
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <BlockPairName>RailingHalfRight</BlockPairName>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -1189,6 +1214,7 @@
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <BlockPairName>RailingHalfLeft</BlockPairName>
             <PCU>1</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
 
@@ -1231,6 +1257,7 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
             <BlockPairName>RotatingLight</BlockPairName>
             <PCU>25</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
             <RotationSpeedBounds Min="0.01" Max="0.1" Default="0.08" />
             <LightRadius Min="1" Max="5" Default="1" />
@@ -1296,6 +1323,7 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
             <BlockPairName>RotatingLight</BlockPairName>
             <PCU>25</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
             <RotationSpeedBounds Min="0.01" Max="0.1" Default="0.08" />
             <LightRadius Min="1" Max="5" Default="1" />
@@ -1355,6 +1383,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
             <PCU>10</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -1399,6 +1428,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <PCU>10</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
         <Definition>
@@ -1443,6 +1473,7 @@
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>12</BuildTimeSeconds>
             <PCU>10</PCU>
+            <DLC>DecorativeBlocks2</DLC>
             <IsAirTight>false</IsAirTight>
         </Definition>
 
