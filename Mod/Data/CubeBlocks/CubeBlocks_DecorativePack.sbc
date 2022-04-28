@@ -127,6 +127,71 @@
             <IsAirTight>false</IsAirTight>
         </Definition>
 
+        <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>LargeBlockDeskCornerInv</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeskCornerInv</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InvertedCornerDesk.dds</Icon>
+            <Description>Description_DeskCorner</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InvertedCornerDesk.mwm</Model>
+            <CharacterAnimation>Table_Sitting_Pose</CharacterAnimation>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="40" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.9" StartY="0.1" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InvertedCornerDeskConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InvertedCornerDeskConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InvertedCornerDeskConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DeskCornerInv</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>18</BuildTimeSeconds>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -245,6 +310,70 @@
             <IsPressurized>false</IsPressurized>
             <HasInventory>false</HasInventory>
             <BuildTimeSeconds>10</BuildTimeSeconds>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeBlockDeskChairlessCornerInv</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_DeskChairlessCornerInv</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\InvertedChairlessCornerDesk.dds</Icon>
+            <Description>Description_DeskChairlessCorner</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <Model>Models\Cubes\Large\InvertedChairlessCornerDesk.mwm</Model>
+            <ModelOffset x="0" y="0" z="0" />
+            <Components>
+                <Component Subtype="InteriorPlate" Count="40" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="1" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.9" StartY="0.1" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
+                <MountPoint Side="Left" StartX="0" StartY="0.32" EndX="0.3" EndY="0.37" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
+                <MountPoint Side="Back" StartX="0.7" StartY="0.32" EndX="1" EndY="0.37" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.37" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InvertedChairlessCornerDeskConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InvertedChairlessCornerDeskConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InvertedChairlessCornerDeskConstruction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <StaticMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>OutsideVoxel</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>DeskChairlessCornerInv</BlockPairName>
+            <MirroringX>MinusHalfY</MirroringX>
+            <MirroringY>ZHalfY</MirroringY>
+            <MirroringZ>YHalfY</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <TargetLockingEnabled>false</TargetLockingEnabled>
+            <IsPressurized>false</IsPressurized>
+            <HasInventory>false</HasInventory>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
